@@ -1,0 +1,29 @@
+.header {
+    padding-top: 4.7rem;
+    display: flex;
+    margin-bottom: 16.4rem;
+
+}
+
+.nav__list {
+    margin-left: 19rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+
+}
+
+.nav__item {
+   list-style-type: none;
+
+}
+
+.nav__link {
+    text-decoration: none;
+    font-family: var(--third-family);
+
+    font-size: 1.8rem;
+    color: #fff;
+
+}

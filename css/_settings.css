@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/woff2/Montserrat-Regular.woff2") format("woff2");
+    font-style:	normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Karla";
+    src: url("../fonts/woff2/Karla-Regular.woff2") format("woff2");
+    font-style:	normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Istok Web";
+    src: url("../fonts/woff2/IstokWeb-Regular.woff2") format("woff2");
+    font-style:	normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Kenia";
+    src: url("../fonts/woff2/Kenia-Regular.woff2") format("woff2");
+    font-style:	normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/woff2/Inter-Regular.woff2") format("woff2");
+    font-style:	normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Libre Barcode 128 Text";
+    src: url("../fonts/woff2/LibreBarcode128Text-Regular.woff2") format("woff2");
+    font-style:	normal;
+    font-weight: 400;
+}
+
+
+html {
+    font-size: 10px;
+    font-family: "Montserrat";
+}
+
+
+
+
+.container-main {
+    background-color: #000000;
+    max-width: 144rem;
+    width: 100%;
+}
+
+.container {
+    padding-left: var(--container-padding);
+
+}
