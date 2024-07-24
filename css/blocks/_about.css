@@ -1,0 +1,32 @@
+.about {
+    position: relative;
+    height: 102.4rem;
+
+    background: linear-gradient(180deg, #d53005 0%, #000 6.04%);
+}
+
+.container .about__title {
+    padding-top: 8.3rem;
+}
+.about__title {
+
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 30px;
+    color: #fff;
+}
+
+.about__description {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about__description p {
+    width: 97rem;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 30px;
+    color: #fff;
+}

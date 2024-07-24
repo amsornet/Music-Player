@@ -1,6 +1,7 @@
 .music-player {
     background: url(../../images/music-player/Desktop.png) center /cover no-repeat;
     height: 102.4rem;
+
 }
 
 .music-player__title {
@@ -24,4 +25,8 @@
     font-size: 2rem;
     color: #fff;
 
+}
+
+.music-player__images {
+    display: none;
 }
