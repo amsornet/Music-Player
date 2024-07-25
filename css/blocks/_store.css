@@ -1,14 +1,45 @@
 .store {
     background: #d53005;
-    height: 10.24rem;
+    height: 102.4rem;
 
 }
 
 .store__title {
+    margin: 0;
     font-family: var(--second-family);
     font-weight: 400;
     font-size: 30px;
     color: #fff;
     padding-top: 8.3rem;
+
+}
+
+.store__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 43.1rem;
+    width: 100%;
+}
+
+.store__title-text {
+    margin: 0;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 2.1rem;
+    color: #fff;
+}
+
+.store__description {
+    margin: 0;
+    font-weight: 400;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #fff;
+
+}
+
+.store__description span {
 
 }
