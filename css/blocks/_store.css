@@ -1,0 +1,14 @@
+.store {
+    background: #d53005;
+    height: 10.24rem;
+
+}
+
+.store__title {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 30px;
+    color: #fff;
+    padding-top: 8.3rem;
+
+}
