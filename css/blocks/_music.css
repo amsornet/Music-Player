@@ -17,21 +17,28 @@
 }
 
 .music__text {
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: nowrap;
+    position: relative;
     margin-top: 6.1rem;
-    column-gap: 3rem;
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    grid-template-columns: min-content 1fr;
+
+
+
 
 }
-
-
+.music__buttons
+{
+    margin-right: 11.8rem;
+}
 .music__button {
+    text-wrap: nowrap;
+    text-align: center;
+
 
     border: none;
-    padding: 1.8rem;
+    padding: 18px 93px;
     margin-bottom: 8.8rem;
     box-shadow: -4px -4px 30px 0 rgba(255, 255, 255, 0.1), 4px 4px 4px 0 rgba(0, 0, 0, 0.5);
     background: radial-gradient(2086.98% 134.85% at 1.57% 7.83%, rgb(177, 62, 24) 0%, rgb(243, 80, 26) 100%);
@@ -39,16 +46,21 @@
     font-weight: 400;
     font-size: 40px;
     color: #fff;
-    width: 38.2rem;
+
+}
+
+.music__button.long {
+    padding-inline: 75px;
+
 }
 
 .music__image{
     max-width: 100%;
     object-fit: cover;
     overflow-x: hidden;
+    height: auto;
 
-    height: 50rem;
-    aspect-ratio: 1;
+
 }
 
 .music__image-02 {
@@ -57,10 +69,10 @@
     left: 0;
 
 
-    /*max-width: 100%;*/
+    max-width: 100%;
     width: 42%;
 
-    /*width: 59%;*/
+
     object-fit: cover;
     overflow-x: hidden;
     aspect-ratio: 1;
