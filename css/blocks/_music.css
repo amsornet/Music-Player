@@ -43,7 +43,7 @@
 }
 
 .music__image{
-    width: 100%;
+    max-width: 100%;
     object-fit: cover;
     overflow-x: hidden;
 
@@ -57,7 +57,10 @@
     left: 0;
 
 
+    /*max-width: 100%;*/
     width: 42%;
+
+    /*width: 59%;*/
     object-fit: cover;
     overflow-x: hidden;
     aspect-ratio: 1;

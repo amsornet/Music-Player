@@ -5,14 +5,29 @@
 
 }
 
-.music-player .container {
-    position: relative;
+.header__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 90.5rem;
+
+    /*grid-template-columns: 1fr 31rem 1fr;*/
 }
 
+.header__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
 .music-player__title {
+    padding-top: 16.4rem;
     max-width: 41.2rem;
     width: 100%;
-    margin-bottom: 17.5rem;
+    line-height: 110%;
+
+
 
     font-family: var(--font3);
     font-size: 15rem;
@@ -29,24 +44,31 @@
     font-family: var(--third-family);
     font-size: 2rem;
     color: #fff;
+    margin-bottom: 23rem;
 
 }
 
 .music-player__image-headset {
-    position: absolute;
-    bottom: -6rem;
-    left: 27rem;
-    overflow-: hidden;
-    object-fit: cover;
+
+    background: url("../../images/music-player/headset_01.png") center / contain no-repeat;
+    background-position: bottom center;
+
+
+    max-width: 31rem;
     width: 100%;
+    object-fit: cover;
+
+
+
 
 }
 
 .music-player__image-iphone {
-    position: absolute;
-    bottom: -25rem;
-    left: 88rem;
-    overflow: hidden;
+    background: url("../../images/music-player/iPhone_03.png") center / contain no-repeat, #000;
+    background-position: bottom center;
+
+    max-width: 51rem;
+    width: 100%;
     object-fit: cover;
 
 
