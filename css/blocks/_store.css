@@ -2,6 +2,7 @@
     background: #d53005;
     height: 102.4rem;
 
+
 }
 .store .container {
     position: relative;
@@ -11,30 +12,30 @@
     position: absolute;
     top: 17rem;
     right: 0;
-    width: 70%;
     aspect-ratio: 1;
-
-
+    object-fit: cover;
 }
 
 .store__title {
+    padding-top: 8.3rem;
 
     font-family: var(--second-family);
     font-weight: 400;
     font-size: 30px;
     color: #fff;
-    padding-top: 8.3rem;
 
 }
 
 .store__main {
+    margin-top: 13.6rem;
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     max-width: 43.1rem;
     width: 100%;
-    margin-top: 13.6rem;
+
 
 
 }

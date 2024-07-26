@@ -1,7 +1,12 @@
 .music-player {
     background: url(../../images/music-player/Desktop.png) center /cover no-repeat;
     height: 102.4rem;
+    overflow: hidden;
 
+}
+
+.music-player .container {
+    position: relative;
 }
 
 .music-player__title {
@@ -27,6 +32,25 @@
 
 }
 
-.music-player__images {
-    display: none;
+.music-player__image-headset {
+    position: absolute;
+    bottom: -6rem;
+    left: 27rem;
+    overflow-: hidden;
+    object-fit: cover;
+    width: 100%;
+
 }
+
+.music-player__image-iphone {
+    position: absolute;
+    bottom: -25rem;
+    left: 88rem;
+    overflow: hidden;
+    object-fit: cover;
+
+
+
+}
+
+
